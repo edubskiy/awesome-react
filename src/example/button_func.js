@@ -1,7 +1,7 @@
-import  { useStateValue } from '../state.js';
+import  { useStateContext } from '../state.js';
 
 const ThemedButton = () => {
-  const [ { theme }, dispatch ] = useStateValue(); // !!! this must be called inside component
+  const [ { theme }, dispatch ] = useStateContext(); // !!! this must be called inside component
 
   return
     <Button>
