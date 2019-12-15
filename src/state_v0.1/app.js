@@ -1,4 +1,4 @@
-import { StateProvider } from './state.js';
+import { StateProvider } from './state.js.js';
 
 const App = () => {
   const initialState = {
